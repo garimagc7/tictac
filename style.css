@@ -6,7 +6,7 @@
  nav{
     background-color: blueviolet;
     color: white;
-    height: 100px;
+    height: 70px;
     font-size: 30px;
     display: flex;
     align-items: center;
@@ -15,4 +15,61 @@
  }
  nav ul{
     list-style-type: none;
+ }
+
+ .gamecontainer{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+ }
+ .container{
+   display: grid;
+   grid-template-rows: repeat(3,10vw);
+   grid-template-columns: repeat(3,10vw);
+   font-family: "Roboto", sans-serif;
+ }
+ .box{
+   border: 2px solid black;
+   font-size: 6vw;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .box:hover{
+   background-color: rgb(149, 151, 149);
+ }
+ .info{
+   font-size: 20px;
+ }
+ .gameinfo{
+   padding: 0 30px;
+    font-family: "Roboto", sans-serif;
+ }
+ .imagebox{
+    width: 0;
+ }
+ .br-0{
+   border-right: 0;
+ }
+ .bl-0{
+   border-left: 0;
+ }
+ .bt-0{
+   border-top: 0;
+ }
+ .bb-0{
+   border-bottom: 0;
+ }
+ #reset{
+   margin: ;
+   padding: ;
+   background-color: ;
+   border-radius: ;
+   font-family: ;
+   font-size: ;
+   font-weight: ;
+ }
+ @media screen and {max width: ;
+   
  }
