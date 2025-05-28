@@ -10,7 +10,7 @@
     font-size: 30px;
     display: flex;
     align-items: center;
-    padding: 0 15px;
+    padding: 15px 15px;
     font-family: "Roboto", sans-serif;
  }
  nav ul{
@@ -47,7 +47,8 @@
     font-family: "Roboto", sans-serif;
  }
  .imagebox{
-    width: 0;
+    display: none;
+    width: 0px;
  }
  .br-0{
    border-right: 0;
@@ -70,6 +71,19 @@
    font-size: ;
    font-weight: ;
  }
- @media screen and {max width: ;
-   
- }
+@media screen and (max-width: 950px)
+{
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+    .gameInfo{
+        margin-top: 34px;
+    }
+    .gameInfo h1{
+        font-size: 1.5rem;
+    }
+    .container { 
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
+}
